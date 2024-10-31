@@ -33,7 +33,10 @@ The class must have a constructor that initializes the values ​​of its respe
 The class must include the following methods:
     Define a method that prints the values ​​of the object's attributes to the console.
     Add two new attributes to the Person class.
-    An attribute that represents the person's country of birth (of type String) and another that identifies the person's gender, which must be represented as a char with values ​​'H', 'M', 'O'.
+    An attribute that represents the person's 
+        country of birth (of type String) and another that 
+        identifies the person's gender, 
+        which must be represented as a char with values ​​'H', 'M', 'O'.
     Modify the constructor of the Person class to initialize these two new attributes.
     Modify the print method of the Person class to display the values ​​of the new attributes on the screen.
     Start the console application from the App class.
