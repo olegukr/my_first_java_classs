@@ -23,9 +23,9 @@ Captura de pantalla de la sección "Testing" de visual studio code donde se apre
 -------
 
 A program is required that models the concept of a person. A person has a 
-    first name, 
-    last name, 
-    ID number,  
+    first name 
+    last name 
+    ID number  
     year of birth
 
 The class must have a constructor that initializes the values ​​of its respective attributes.
