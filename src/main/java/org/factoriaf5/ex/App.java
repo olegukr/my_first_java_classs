@@ -12,6 +12,11 @@ public final class App {
      * @param args The arguments of the program.
      */
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+   
+        Person chip = new Person("Chip", "Justice", 0, "30-10-1943");
+        Person dale = new Person("Dale", "Justice", 0, "30-10-1943");
+        chip.outputAllAttributes();
+        dale.outputAllAttributes();
+
     }
 }
