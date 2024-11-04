@@ -11,12 +11,6 @@ import org.junit.jupiter.api.Test;
 
 public class PersonTest {
 
-    private final ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
-    private final PrintStream originalOut = System.out;
-
-    Person person1 = new Person("name1", "lastName1", 0, "11-11-2020", "Spain", 'M' );
-
-
     @Test
     @DisplayName("Test new instance for Person class")
     void testNewInstancePersonClass() {
@@ -35,12 +29,5 @@ public class PersonTest {
         assertThat(person1.getYearOfBirth(), is("11-11-2020"));
         assertThat(person1.getCountryOfBirth(), is("Spain"));
         assertThat(person1.getGender(), is('M'));
-
-
-
-
-
     }
-
-
 }

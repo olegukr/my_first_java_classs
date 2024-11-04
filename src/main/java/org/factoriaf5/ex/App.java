@@ -6,17 +6,11 @@ package org.factoriaf5.ex;
 public final class App {
     private App() {
     }
-
-    /**
-     * Says hello to the world.
-     * @param args The arguments of the program.
-     */
     public static void main(String[] args) {
    
         Person chip = new Person("Chip", "Justice", 0, "30-10-1943", "USA", 'H');
         Person dale = new Person("Dale", "Justice", 0, "31-10-1943", "USA", 'H');
         chip.outputAllAttributes();
         dale.outputAllAttributes();
-
     }
 }
