@@ -33,8 +33,30 @@ public class Person {
         System.out.println("Year of birth: " + this.yearOfBirth);
         System.out.println("Country of birth: " + this.countryOfBirth);
         System.out.println("Gender: " + this.gender);
+    }
 
+    public String getFirstName() {
+        return firstName;
+    }
 
+    public String getLastName() {
+        return lastName;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getYearOfBirth() {
+        return yearOfBirth;
+    }
+
+    public String getCountryOfBirth() {
+        return countryOfBirth;
+    }
+
+    public char getGender() {
+        return gender;
     }
 
 }
